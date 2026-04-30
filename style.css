@@ -164,3 +164,10 @@ footer {
     from { opacity: 0; transform: translateY(8px); }
     to   { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 400px) {
+    .search-box button:last-child {
+        padding: 0.6rem 0.6rem;
+        font-size: 1rem;
+    }
+}
